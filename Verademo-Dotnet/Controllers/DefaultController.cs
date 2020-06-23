@@ -43,6 +43,8 @@ namespace Verademo_dotnet.Controllers
             // The array is now filled with cryptographically strong random bytes.
             rng.GetBytes(secretkey);
             return secretkey;
+            // code change
+            // new
         }
     }
 }

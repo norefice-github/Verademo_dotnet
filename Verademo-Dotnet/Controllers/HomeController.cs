@@ -1,11 +1,7 @@
-﻿using log4net;
-using log4net.Repository.Hierarchy;
+﻿
+using log4net;
 using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace Verademo_dotnet.Controllers
@@ -62,7 +58,7 @@ namespace Verademo_dotnet.Controllers
         public ActionResult Contact(string demoXml)
         {
             ViewBag.Message = "Your contact page.";
-            
+
             return View();
         }
 
